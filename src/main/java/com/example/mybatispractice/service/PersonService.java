@@ -26,6 +26,6 @@ public class PersonService {
     }
 
     public void addPerson(PersonDto personDto) {
-        personMapper.save(personDto.getName(), personDto.getAge(), personDto.getAddress());
+        personMapper.save(personDto);
     }
 }
